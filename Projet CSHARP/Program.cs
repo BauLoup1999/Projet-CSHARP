@@ -6,6 +6,25 @@
     {
         return salary * (1 - taxes / 100);
     }
+    class User
+    {
+        public int ID;
+        public string Firstname;
+        public string LastName;
+        public int Old;
+        public int Salary;
+        public double Tax;
+
+        public User(int id, string firstname, string lastName, int old, int salary, double tax)
+        {
+            ID = id;
+            Firstname = firstname;
+            LastName = lastName;
+            Old = old;
+            Salary = salary;
+            Tax = tax;
+        }
+    }
 
     static void Main(string[] args)
     {
@@ -14,6 +33,12 @@
         double tauxPrime = 0;
 
         Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.WriteLine("\nQuel est votre Prénom : ");
+        string firstname = Console.ReadLine();
+        Console.WriteLine("\nQuel est votre Nom : ");
+        string lastname = Console.ReadLine();
+        Console.WriteLine("\nQuel est votre âge : ");
+        int old = int.Parse(Console.ReadLine());
         Console.WriteLine("Quel est votre Salaire annuel Brut : ");
         bool salaryInInt = int.TryParse(Console.ReadLine().Replace("€", ""), out int salary);
         Console.WriteLine("\nQuel est votre Taux d'imposition : ");
@@ -31,7 +56,9 @@
         {
             Console.WriteLine("La division ne peux pas être par 0");
         }
-        Console.WriteLine("\nVous avez un salaire de : " + salary + "€ Brut" + "\nImposable a " + taxes + "%" + "\n avec une prime de fin d'année de : " + tauxPrime + "%");
+        User user1 = new User(1, firstname, lastname, old, salary, taxes);
+
+        Console.WriteLine("\n" + user1.Firstname + " " + user1.LastName + " Vous avez un salaire de : " + salary + "€ Brut" + "\nImposable a " + taxes + "%" + "\n avec une prime de fin d'année de : " + tauxPrime + "%");
         double salaryNet = Math.Round(calculateSalary(salary, taxes), 2);
         Console.WriteLine("\nVous gagnez donc : " + salaryNet + "€ Net");
         switch (salary)
