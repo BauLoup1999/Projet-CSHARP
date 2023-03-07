@@ -7,7 +7,13 @@ class Program
     {
         return salary * (1 - taxes / 100);
     }
-  
+    static double CalculateCompoundInterest(double principal, double interestRate, int years)
+    {
+        double amount = principal * Math.Pow(1 + (interestRate / 100), years);
+        double compoundInterest = amount - principal;
+        return compoundInterest;
+    }
+
 
     static void Main(string[] args)
     {
@@ -44,6 +50,17 @@ class Program
         {
             Console.WriteLine("La division ne peux pas être par 0");
         }
+        Console.WriteLine("\nEntrez le capital investi : ");
+        double principal = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("\nEntrez le taux d'intérêt annuel en pourcentage : ");
+        double interestRate = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("\nEntrez le nombre d'années pendant lesquelles le capital est investi : ");
+        int years = int.Parse(Console.ReadLine());
+
+        double compoundInterest = CalculateCompoundInterest(principal, interestRate, years);
+        Console.WriteLine("\nLe montant total des intérêts composés générés est : " + compoundInterest);
         User user1 = new User(1, firstname, lastname, old, salary, taxes);
 
         Console.WriteLine("\n" + user1.Firstname + " " + user1.LastName + " Vous avez un salaire de : " + salary + "€ Brut" + "\nImposable a " + taxes + "%" + "\n avec une prime de fin d'année de : " + tauxPrime + "%");
