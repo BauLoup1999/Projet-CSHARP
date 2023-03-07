@@ -9,7 +9,7 @@
 
     static void Main(string[] args)
     {
-        string[] month = new string[] { "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre" };
+        string[] month = new string[] { "Janviers", "Février", "Mars", "Avril", "Mai", "Juin", "juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre" };
         string closedMonth = "Aout";
         double tauxPrime = 0;
 
