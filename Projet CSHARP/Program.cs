@@ -1,4 +1,5 @@
-﻿class Program
+﻿using ProjetCSharp.Models.User;
+class Program
 {
 
 
@@ -6,25 +7,7 @@
     {
         return salary * (1 - taxes / 100);
     }
-    class User
-    {
-        public int ID;
-        public string Firstname;
-        public string LastName;
-        public int Old;
-        public int Salary;
-        public double Tax;
-
-        public User(int id, string firstname, string lastName, int old, int salary, double tax)
-        {
-            ID = id;
-            Firstname = firstname;
-            LastName = lastName;
-            Old = old;
-            Salary = salary;
-            Tax = tax;
-        }
-    }
+  
 
     static void Main(string[] args)
     {
