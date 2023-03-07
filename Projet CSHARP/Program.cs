@@ -33,16 +33,21 @@
         double tauxPrime = 0;
 
         Console.OutputEncoding = System.Text.Encoding.UTF8;
-        Console.WriteLine("\nQuel est votre Prénom : ");
+        Console.WriteLine("\nVotre prenom : ");
         string firstname = Console.ReadLine();
-        Console.WriteLine("\nQuel est votre Nom : ");
+
+        Console.WriteLine("\nVotre nom : ");
         string lastname = Console.ReadLine();
-        Console.WriteLine("\nQuel est votre âge : ");
+
+        Console.WriteLine("\nVotre age : ");
         int old = int.Parse(Console.ReadLine());
-        Console.WriteLine("Quel est votre Salaire annuel Brut : ");
+
+        Console.WriteLine("Votre Salaire annuel Brut : ");
         bool salaryInInt = int.TryParse(Console.ReadLine().Replace("€", ""), out int salary);
-        Console.WriteLine("\nQuel est votre Taux d'imposition : ");
+
+        Console.WriteLine("\nVotre Taux d'imposition : ");
         double taxes = double.Parse(Console.ReadLine().Replace("%", ""));
+
         Console.WriteLine("\nQuel est le Taux de la prime de fin d'année : ");
         try
         {
@@ -95,7 +100,7 @@
             }
         }
 
-
+        
         Console.ReadLine();
     }
 }
