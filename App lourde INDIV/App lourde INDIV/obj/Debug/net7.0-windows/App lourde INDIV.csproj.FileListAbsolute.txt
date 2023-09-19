@@ -1,0 +1,22 @@
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\bin\Debug\net7.0-windows\App lourde INDIV.exe
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\bin\Debug\net7.0-windows\App lourde INDIV.deps.json
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\bin\Debug\net7.0-windows\App lourde INDIV.runtimeconfig.json
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\bin\Debug\net7.0-windows\App lourde INDIV.dll
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\bin\Debug\net7.0-windows\App lourde INDIV.pdb
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.csproj.AssemblyReference.cache
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV_MarkupCompile.cache
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.g.resources
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.AssemblyInfoInputs.cache
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.AssemblyInfo.cs
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.csproj.CoreCompileInputs.cache
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.dll
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\refint\App lourde INDIV.dll
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.pdb
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\App lourde INDIV.genruntimeconfig.cache
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\ref\App lourde INDIV.dll
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\AjouterCollaborateurWindow.baml
+C:\Users\pyrom\source\repos\App lourde INDIV\App lourde INDIV\obj\Debug\net7.0-windows\AjouterCollaborateurWindow.g.cs

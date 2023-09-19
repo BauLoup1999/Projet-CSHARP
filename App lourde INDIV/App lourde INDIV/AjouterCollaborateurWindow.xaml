@@ -1,0 +1,50 @@
+<Window x:Class="App_lourde_INDIV.AjouterCollaborateurWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ajouter un Collaborateur" Height="250" Width="400">
+
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox Name="txtNom" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Nom" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtPrenom" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Prenom" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtTelephoneFixe" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Telephone Fixe" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtTelephonePortable" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Telephone Portable" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtEmail" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Email" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtService" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Service" />
+                </TextBox.ToolTip>
+            </TextBox>
+            <TextBox Name="txtSite" Margin="0,0,0,10" Width="300">
+                <TextBox.ToolTip>
+                    <ToolTip Content="Site" />
+                </TextBox.ToolTip>
+            </TextBox>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="OK" Name="btnOK" Click="btnOK_Click" Margin="0,0,10,0" />
+                <Button Content="Annuler" Name="btnAnnuler" Click="btnAnnuler_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
